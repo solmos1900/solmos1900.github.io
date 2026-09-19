@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sebastian Olmos</title>
+<meta name="description" content="Sebastian Olmos: software engineer at American Express, and an independent builder of Pillars and Resume Redox." />
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <a class="wordmark" href="#top">Sebastian Olmos</a>
+    <nav class="primary-nav">
+      <a href="#about">About</a>
+      <a href="#offline">Off the clock</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg>
+      </button>
+    </nav>
+  </div>
+</div>
+
+<main id="top">
+  <div class="wrap hero">
+    <p class="eyebrow">Phoenix, AZ</p>
+    <h1>Hi, I'm Sebastian.</h1>
+    <p class="lede">
+      Software engineer at American Express. The rest of the time I'm usually building something of my own.
+    </p>
+    <div class="link-row">
+      <a class="pill primary" href="mailto:solmos1900@gmail.com">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"></path><path d="m22 6-10 7L2 6"></path></svg>
+        Email
+      </a>
+      <a class="pill" href="https://www.linkedin.com/in/sebastian-olmos1" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4V8h4v1.5A5.98 5.98 0 0 1 16 8z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+        LinkedIn
+      </a>
+      <a class="pill" href="https://github.com/solmos1900" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"></path></svg>
+        GitHub
+      </a>
+    </div>
+  </div>
+
+  <section id="about">
+    <div class="wrap">
+      <h2>About</h2>
+      <p class="prose">
+        At American Express, I'm the person engineering teams talk to before they build against our platform:
+        API questions, onboarding, authentication, the stuff that blocks a project before it starts. I also built
+        the data automation and visualization infrastructure other teams now use whenever they need a recurring
+        Power BI report, instead of building one from scratch.
+      </p>
+      <p class="prose">
+        Before Amex: a software engineering internship at Chewy, and a year teaching elementary schoolers to
+        code at Code Ninjas. I studied computer science at the University of Iowa, and was a Hispanic
+        Scholarship Fund scholar and SHPE member. I'm bilingual in English and Spanish.
+      </p>
+    </div>
+  </section>
+
+  <section id="offline">
+    <div class="wrap">
+      <h2>Off the clock</h2>
+      <p class="statement">I ran a marathon, then went looking for the next hard thing.</p>
+      <p class="prose">
+        Most weekends I'm on a trail somewhere. It's a big part of why Pillars exists: I wanted something that
+        understands what a training block does to sleep and appetite, not a step counter that stops at 10,000.
+      </p>
+      <div class="badge-row">
+        <span>Marathon finisher</span>
+        <span>Trail hiker</span>
+        <span>Always training for something</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <h2>Projects</h2>
+      <p class="section-intro">Two things I built because I found a need for them in my life.</p>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-head">
+            <h3>Pillars</h3>
+            <span class="status-tag">TestFlight</span>
+          </div>
+          <p class="project-tagline">An iOS health app</p>
+          <p class="desc">
+            I wanted my workouts, meals, symptoms, and sleep in one app instead of four. Pillars pulls all of it
+            into one log, with an AI coach (built on the Claude API) that reads across the data and points out
+            things I'd have missed on my own. In TestFlight now, heading to the App Store.
+          </p>
+          <div class="project-links">
+            <a href="pillars/privacy/">Privacy</a>
+            <a href="pillars/terms/">Terms</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-head">
+            <h3>Resume Redox</h3>
+            <span class="status-tag">Live</span>
+          </div>
+          <p class="project-tagline">A resume builder</p>
+          <p class="desc">
+            Tailoring a resume for every role got old fast, so I built a tool for it. Edit once, keep a version
+            per role, and export a PDF that's actually the design on your screen, not a screenshot pretending
+            to be one.
+          </p>
+          <div class="project-links">
+            <a href="https://resume-redox.vercel.app" target="_blank" rel="noopener">Try it</a>
+            <a href="https://github.com/solmos1900/Resume-Redox" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"></path></svg>
+              Source
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <div class="wrap">
+      <h2>Contact</h2>
+      <p>Best reached by email.</p>
+      <div class="link-row">
+        <a class="pill primary" href="mailto:solmos1900@gmail.com">solmos1900@gmail.com</a>
+        <a class="pill" href="https://www.linkedin.com/in/sebastian-olmos1" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="pill" href="https://github.com/solmos1900" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span data-year>2026</span> Sebastian Olmos</span>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
